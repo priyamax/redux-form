@@ -3,7 +3,7 @@ import ContactForm from '../component/Formcomponent'
 
 class ContactPage extends React.Component {
   submit = values => {
-    console.log(values.email)
+    console.log(values)
   }
   render() {
     return <ContactForm onSubmit={this.submit} />
